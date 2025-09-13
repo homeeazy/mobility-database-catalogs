@@ -23,7 +23,7 @@ from tools.constants import (
     REDIRECTS,
     IS_OFFICIAL
 )
-from tools.representations import GtfsScheduleSourcesCatalog, GtfsRealtimeSourcesCatalog
+from mobilitydb.tools.representations import GtfsScheduleSourcesCatalog, GtfsRealtimeSourcesCatalog
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 

@@ -180,7 +180,7 @@ To use the Mobility Database Catalogs, go to the cloned project root, open the P
 ```sh
 $ cd mobility-catalogs
 $ python
->>> from tools.operations import *
+>>> from mobilitydb.tools.operations import *
 ```
 
 To get the feeds:

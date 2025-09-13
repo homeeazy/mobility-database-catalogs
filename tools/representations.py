@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 import os
 import json
-from tools.helpers import (
+from mobilitydb.tools.helpers import (
     are_overlapping_boxes,
     is_readable,
     load_gtfs,
@@ -12,7 +12,7 @@ from tools.helpers import (
     create_filename,
     download_dataset,
 )
-from tools.constants import (
+from mobilitydb.tools.constants import (
     GTFS_SCHEDULE_CATALOG_PATH,
     SOURCE_CATALOG_PATH_FROM_ROOT,
     GTFS_REALTIME_CATALOG_PATH,
