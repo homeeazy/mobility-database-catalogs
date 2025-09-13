@@ -6,8 +6,8 @@ from requests import RequestException
 
 from compliance_track.constants import BEST_PRACTICES_RULES, GC_COPY_PATH, BAD_PRACTICES_RULES, VALIDATOR
 from compliance_track.validation import download_latest_dataset
-from tools.constants import GTFS
-from tools.operations import get_sources
+from mobilitydb.tools.constants import GTFS
+from mobilitydb.tools.operations import get_sources
 
 pd.options.mode.chained_assignment = None
 

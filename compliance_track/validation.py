@@ -3,8 +3,8 @@ from zipfile import ZipFile
 
 import pandas as pd
 
-from tools.constants import AUTHENTICATION_TYPE, API_KEY_PARAMETER_NAME, API_KEY_PARAMETER_VALUE
-from tools.helpers import download_dataset
+from mobilitydb.tools.constants import AUTHENTICATION_TYPE, API_KEY_PARAMETER_NAME, API_KEY_PARAMETER_VALUE
+from mobilitydb.tools.helpers import download_dataset
 from update_gtfs_schedule_sources import has_extension_file
 
 

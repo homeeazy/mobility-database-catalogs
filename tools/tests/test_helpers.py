@@ -6,7 +6,7 @@ import requests
 from freezegun import freeze_time
 from requests.exceptions import HTTPError
 
-from tools.helpers import (
+from mobilitydb.tools.helpers import (
     are_overlapping_edges,
     are_overlapping_boxes,
     is_readable,

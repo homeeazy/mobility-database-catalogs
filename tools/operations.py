@@ -1,5 +1,5 @@
 import os
-from tools.constants import (
+from mobilitydb.tools.constants import (
     NAME,
     PROVIDER,
     COUNTRY_CODE,

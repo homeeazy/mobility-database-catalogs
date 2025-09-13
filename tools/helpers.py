@@ -11,7 +11,7 @@ from pandas.errors import ParserError
 from requests.exceptions import RequestException, HTTPError
 from unidecode import unidecode
 
-from tools.constants import (
+from mobilitydb.tools.constants import (
     STOP_LAT,
     STOP_LON,
     MDB_ARCHIVES_LATEST_URL_TEMPLATE,

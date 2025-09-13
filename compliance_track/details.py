@@ -4,8 +4,8 @@ import pandas as pd
 from requests import RequestException
 
 from compliance_track.validation import download_latest_dataset, get_sub_directories, get_exceeded_shape_dist
-from tools.constants import GTFS
-from tools.operations import get_sources
+from mobilitydb.tools.constants import GTFS
+from mobilitydb.tools.operations import get_sources
 
 pd.options.mode.chained_assignment = None
 
